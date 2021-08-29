@@ -1,6 +1,6 @@
 import * as t from 'assert';
 import { SourceLocation } from '../../../src/estree';
-import { parseScript } from '../../../src/meriyah';
+import { parseScript } from '../../../src/portuscriptparser';
 
 describe('Miscellaneous - onComment', () => {
   it('should extract single line comment', () => {

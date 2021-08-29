@@ -1,7 +1,7 @@
 {
   "name": "@portuscript/parser",
   "version": "4.2.0",
-  "description": "A 100% compliant, self-hosted javascript parser with high focus on both performance and stability",
+  "description": "Este é o Parser da linguagem PortuScript, baseada no JavaScript com keywords em português para fins de aprendizagem de algoritmos.",
   "main": "dist/portuscriptparser.cjs",
   "module": "dist/portuscriptparser.esm.js",
   "jsnext:main": "dist/portuscriptparser.esm.js",
@@ -12,8 +12,8 @@
     "import": "./dist/portuscriptparser.esm.js",
     "require": "./dist/portuscriptparser.cjs"
   },
-  "types": "dist/src/meriyah.d.ts",
-  "typings": "dist/src/meriyah.d.ts",
+  "types": "dist/src/portuscriptparser.d.ts",
+  "typings": "dist/src/portuscriptparser.d.ts",
   "license": "ISC",
   "homepage": "https://github.com/JoaoHenriqueBarbosa/PortuScript-Parser",
   "repository": {

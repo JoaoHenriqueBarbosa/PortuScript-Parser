@@ -45,7 +45,7 @@ const onCycle = function onCycle(event: any): void {
 
 const onComplete = function onComplete(): void {
   console.log('-'.repeat(72));
-  console.log(`${' '.repeat(42)} cherow${' '.repeat(20)} meriyah${' '.repeat(10)}`);
+  console.log(`${' '.repeat(42)} cherow${' '.repeat(20)} portuscriptparser${' '.repeat(10)}`);
   for (let i = 0; i < results[1].length; ++i) {
     const v1 = results[1][i];
     const v2 = results[2][i];

@@ -8,7 +8,7 @@ module.exports = {
   pkg: packageJson,
   coverage: { path: join(root, 'coverage') },
   src: { path: join(root, 'src') },
-  entry: { path: join(root, 'src', 'meriyah.ts') },
+  entry: { path: join(root, 'src', 'portuscriptparser.ts') },
   dist: { path: join(root, 'dist') },
   node_modules: { path: join(root, 'node_modules') },
   scripts: { path: join(root, 'scripts') },

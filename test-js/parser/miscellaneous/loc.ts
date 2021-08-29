@@ -1,7 +1,7 @@
 import * as t from 'assert';
 import { Context } from '../../../src/common';
 import { pass } from '../../test-utils';
-import { parse } from '../../../src/meriyah';
+import { parse } from '../../../src/portuscriptparser';
 
 describe('Miscellaneous - loc', () => {
   pass('Miscellaneous - loc (pass)', [

@@ -1,4 +1,4 @@
-import { parseScript, parseModule } from '../../src/meriyah';
+import { parseScript, parseModule } from '../../src/portuscriptparser';
 import { readdirSync, readFileSync } from 'fs';
 import * as t from 'assert';
 
