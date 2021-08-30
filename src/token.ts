@@ -220,22 +220,22 @@ export const KeywordDescTable = [
   '&=', '||=', '&&=', '??=',
 
   /* Unary/binary operators */
-  'typeof', 'delete', 'void', '!', '~', '+', '-', 'in', 'instanceof', '*', '%', '/', '**', '&&',
+  'typeof', 'delete', 'void', '!', '~', '+', '-', 'em', 'instanceof', '*', '%', '/', '**', '&&',
   '||', '===', '!==', '==', '!=', '<=', '>=', '<', '>', '<<', '>>', '>>>', '&', '|', '^',
 
   /* Variable declaration kinds */
   'var', 'let', 'const',
 
   /* Other reserved words */
-  'break', 'case', 'catch', 'class', 'continue', 'debugger', 'default', 'do', 'else', 'export',
-  'extends', 'finally', 'for', 'function', 'se', 'import', 'new', 'return', 'super', 'switch',
-  'this', 'throw', 'try', 'while', 'with',
+  'quebra', 'caso', 'catch', 'classe', 'continue', 'debugger', 'padrao', 'faca', 'senao', 'export',
+  'extends', 'finally', 'para', 'funcao', 'se', 'import', 'novo', 'retorna', 'super', 'escolha',
+  'este', 'throw', 'try', 'enquanto', 'with',
 
   /* Strict mode reserved words */
   'implements', 'interface', 'package', 'private', 'protected', 'public', 'static', 'yield',
 
   /* Contextual keywords */
-  'as', 'async', 'await', 'constructor', 'get', 'set', 'from', 'of',
+  'como', 'assincrono', 'espere', 'construtor', 'get', 'set', 'from', 'of',
 
   /* Others */
   'enum', 'eval', 'arguments', 'escaped keyword', 'escaped future reserved keyword', 'reserved if strict', '#',
@@ -247,35 +247,35 @@ export const KeywordDescTable = [
 
 // Normal object is much faster than Object.create(null), even with typeof check to avoid Object.prototype interference
 export const descKeywordTable: { [key: string]: Token } = Object.create(null, {
-  this: { value: Token.ThisKeyword },
-  function: { value: Token.FunctionKeyword },
+  este: { value: Token.ThisKeyword },
+  funcao: { value: Token.FunctionKeyword },
   se: { value: Token.IfKeyword },
-  return: { value: Token.ReturnKeyword },
+  retorna: { value: Token.ReturnKeyword },
   var: { value: Token.VarKeyword },
-  else: { value: Token.ElseKeyword },
-  for: { value: Token.ForKeyword },
-  new: { value: Token.NewKeyword },
-  in: { value: Token.InKeyword },
+  senao: { value: Token.ElseKeyword },
+  para: { value: Token.ForKeyword },
+  novo: { value: Token.NewKeyword },
+  em: { value: Token.InKeyword },
   typeof: { value: Token.TypeofKeyword },
-  while: { value: Token.WhileKeyword },
-  case: { value: Token.CaseKeyword },
-  break: { value: Token.BreakKeyword },
+  enquanto: { value: Token.WhileKeyword },
+  caso: { value: Token.CaseKeyword },
+  quebra: { value: Token.BreakKeyword },
   try: { value: Token.TryKeyword },
   catch: { value: Token.CatchKeyword },
   delete: { value: Token.DeleteKeyword },
   throw: { value: Token.ThrowKeyword },
-  switch: { value: Token.SwitchKeyword },
+  escolha: { value: Token.SwitchKeyword },
   continue: { value: Token.ContinueKeyword },
-  default: { value: Token.DefaultKeyword },
+  padrao: { value: Token.DefaultKeyword },
   instanceof: { value: Token.InstanceofKeyword },
-  do: { value: Token.DoKeyword },
+  faca: { value: Token.DoKeyword },
   void: { value: Token.VoidKeyword },
   finally: { value: Token.FinallyKeyword },
-  async: { value: Token.AsyncKeyword },
-  await: { value: Token.AwaitKeyword },
-  class: { value: Token.ClassKeyword },
+  assincrono: { value: Token.AsyncKeyword },
+  espere: { value: Token.AwaitKeyword },
+  classe: { value: Token.ClassKeyword },
   const: { value: Token.ConstKeyword },
-  constructor: { value: Token.ConstructorKeyword },
+  construtor: { value: Token.ConstructorKeyword },
   debugger: { value: Token.DebuggerKeyword },
   export: { value: Token.ExportKeyword },
   extends: { value: Token.ExtendsKeyword },
@@ -300,7 +300,7 @@ export const descKeywordTable: { [key: string]: Token } = Object.create(null, {
   yield: { value: Token.YieldKeyword },
   enum: { value: Token.EnumKeyword },
   eval: { value: Token.Eval },
-  as: { value: Token.AsKeyword },
+  como: { value: Token.AsKeyword },
   arguments: { value: Token.Arguments },
   target: { value: Token.Target },
   meta: { value: Token.Meta },
